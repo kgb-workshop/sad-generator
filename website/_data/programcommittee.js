@@ -6,7 +6,7 @@ module.exports = async () => {
     "affiliation": { "@id": "http://schema.org/memberOf", "@singular": true },
     "event": { "@id": "http://schema.org/performerIn", "@singular": true },
     "Person": "http://schema.org/Person",
-    "workshop": "https://kgb-workshop.org/resources/Event/kgb2019"
+    "workshop": "http://example.com/resources/Event/example-event"
   }, `{ ... on Person {name affiliation event(_:workshop)} }`);
 
   result.sort( (a, b) => {

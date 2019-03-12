@@ -10,8 +10,10 @@ module.exports = async () => {
     "location": { "@id": "http://schema.org/location", "@singular": true},
     "mainEvent": { "@id": "http://schema.org/superEvent", "@singular": true},
     "date": { "@id": "http://schema.org/startDate", "@singular": true},
+    "twitter": { "@id": "http://open.vocab.org/terms/twitter-id", "@singular": true},
+    "email": { "@id": "http://schema.org/email", "@singular": true },
     "Event": "http://schema.org/Event"
-  },`{... on Event {title, location, mainEvent, date}}`);
+  },`{... on Event {title, location, mainEvent, date, twitter, email}}`);
 
   result = result[0];
   const date = new Date(result.date);

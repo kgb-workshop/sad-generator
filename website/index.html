@@ -65,7 +65,6 @@
 				<li><a href="#important-dates">Important dates</a></li>
 				<li><a href="#organization">Organization</a></li>
 				<li><a href="#pc">Program Committee</a></li>
-				<li><a href="#contact">Website Generation</a></li>
 			</ul>
 		</nav>
 		<!-- /Navigation -->
@@ -453,69 +452,6 @@
 
 <!-- CTA -->
 
-
-<!-- Contact -->
-<div id="contact" class="section" style="padding: 30pt !important; background-color: rgb(247, 247, 247);">
-	<!-- container -->
-	<div class="container">
-		<!-- row -->
-		<div class="row">
-			<!-- section title -->
-			<div class="section-title" style="margin-bottom: 30pt !important;">
-				<h3 class="title"><span>How we</span> built the <span style="color: #dd0a37;">KGB Web Page</span></h3>
-				<h3>Eating our own dog food</h3>
-			</div>
-
-
-
-
-			<div class="col-md-6">
-				<h3 class="title"><span style="color: #dd0a37;">Tools</span></h3>
-				<p style="font-size: 14pt">
-					Most of the information showed on this website comes from the <a href="https://raw.githubusercontent.com/kgb-workshop/data/master/workshop-data.ttl">KGB2019 RDF Graph</a>. For generating
-					it, we use the <a href="http://rml.io/">RML suite</a> (<a href="https://github.com/RMLio/yarrrml-parser">YARRRML parser</a> and <a href="https://github.com/RMLio/rmlmapper-java">RML-Mapper</a>) and for querying it, we use the <a href="http://comunica.linkeddatafragments.org/">Comunica Framework</a>.
-				</p>
-			</div>
-
-			<div class="col-md-6">
-				<h3 class="title"><span style="color: #dd0a37;">Mappings and CSVs</span></h3>
-				<p style="font-size: 14pt">
-					Using the <a href="http://rml.io/yarrrml/">YARRRML specification</a>, we generate a <a href="https://raw.githubusercontent.com/kgb-workshop/data/master/mapping.yml">mapping</a> for building the RDF from the <a href="https://github.com/kgb-workshop/data/tree/master/csv">source CSVs</a>. Check the <a href="https://github.com/kgb-workshop/data">full workflow</a> and see how easy is to generate a Knowledge Graph using mapping languages!
-				</p>
-			</div>
-		</div>
-
-
-
-		<!-- /section title -->
-
-		<!-- contact
-        <div class="col-sm-6">
-            <div class="contact">
-                <h3><a href="https://twitter.com/rml_io">Twitter</a></h3>
-            </div>
-        </div>-->
-		<!-- /contact -->
-
-		<!-- contact
-        <div class="col-sm-4">
-            <div class="contact">
-                <h3><a href="">EasyChair</a></h3>
-            </div>
-        </div>-->
-		<!-- /contact -->
-
-		<!-- contact
-        <div class="col-sm-6">
-            <div class="contact">
-                <h3><a href="mailto:dchaves@fi.upm.es">Email</a></h3>
-            </div>
-        </div>-->
-		<!-- /contact -->
-
-	</div>
-	<!-- /row -->
-</div>
 <!-- /container -->
 
 <!-- Map -->
@@ -528,12 +464,6 @@
 <footer id="footer">
 	<!-- container -->
 	<div class="container">
-
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<a class="twitter-timeline" href="https://twitter.com/kgbw_2019?ref_src=twsrc%5Etfw">Tweets by kgbw_2019</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
-		</div>
 		<!-- row -->
 		<div class="row">
 
@@ -550,8 +480,8 @@
 
 			<div class="col-md-2">
 				<div class="contact-social">
-					<a href="http://twitter.com/kgbw_2019"><i class="fa fa-twitter"></i></a>
-					<a href="mailto:dchaves@fi.upm.es"><i class="fa fa-envelope"></i></a>
+					<a href="https://twitter.com/{{workshop.twitter}}"><i class="fa fa-twitter"></i></a>
+					<a href="mailto:{{workshop.email}}"><i class="fa fa-envelope"></i></a>
 				</div>
 			</div>
 			<!-- /contact social -->

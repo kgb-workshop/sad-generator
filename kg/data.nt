@@ -1,79 +1,81 @@
-<https://kgb-workshop.org/resources/Event/example-event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/name> "My First Academic Event".
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/duration> "P0T8H".
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/startDate> "2019-06-03".
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/endDate> "2019-06-03".
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/location> "New York, USA".
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/superEvent> "The Big Super Event".
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/subEvent> <https://kgb-workshop.org/resources/ImportantDates/2019-03-11>.
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/subEvent> <https://kgb-workshop.org/resources/ImportantDates/2019-03-29>.
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/subEvent> <https://kgb-workshop.org/resources/ImportantDates/2019-04-12>.
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/subEvent> <https://kgb-workshop.org/resources/ImportantDates/2019-06-03>.
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/organizer> <https://kgb-workshop.org/resources/Organizer/john-doe>.
-<https://kgb-workshop.org/resources/Event/example-event> <http://schema.org/organizer> <https://kgb-workshop.org/resources/Organizer/jane-doe>.
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/name> "Mapping based Knowledge Graph Generation".
-<https://kgb-workshop.org/resources/Topic/tools-for-knowledge-graph-generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
-<https://kgb-workshop.org/resources/Topic/tools-for-knowledge-graph-generation> <http://schema.org/name> "Tools for Knowledge Graph Generation".
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/name> "Methods and Techniques for Knowledge Graph Generation".
-<https://kgb-workshop.org/resources/Topic/lessons-learnt-in-use-and-experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
-<https://kgb-workshop.org/resources/Topic/lessons-learnt-in-use-and-experience> <http://schema.org/name> "Lessons learnt, In Use and Experience".
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Mapping languages for generating Knowledge Graph from legacy datasets".
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Approaches and techniques on (semi)automatically generate mappings".
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Approaches and techniques on collaborative mappings generation".
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Approaches and techniques on exploiting mappings for query answering".
-<https://kgb-workshop.org/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "End User Interfaces (UI) for (collaborative) editing and viewing  for Knowledge Graphs building rules and management platforms in general".
-<https://kgb-workshop.org/resources/Topic/tools-for-knowledge-graph-generation> <http://schema.org/keyword> "Architectures for Knowledge Graph generation systems".
-<https://kgb-workshop.org/resources/Topic/tools-for-knowledge-graph-generation> <http://schema.org/keyword> "(Sustainable) workflows for Web scale Knowledge Graph generation & publishing".
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Seamless (distributed) integration/interlinking from heterogeneous data sources".
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Dynamic discovery and retrieval of data for KG generation".
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Quality, Provenance, privacy and trustworthiness of Linked Data generation".
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Knowledge Graph generation and publishing of streaming data at run-time".
-<https://kgb-workshop.org/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Benchmarks for Knowledge Graphs generation and publishing".
-<https://kgb-workshop.org/resources/Topic/lessons-learnt-in-use-and-experience> <http://schema.org/keyword> "Experience, lessons learnt and best practices for generating and publishing".
-<https://kgb-workshop.org/resources/Topic/lessons-learnt-in-use-and-experience> <http://schema.org/keyword> "Negative results and in-use/applied descriptions".
-<https://kgb-workshop.org/resources/ProgramCommittee/sucy-jameson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
-<https://kgb-workshop.org/resources/ProgramCommittee/sucy-jameson> <http://schema.org/performerIn> <https://kgb-workshop.org/resources/Event/kgb2019>.
-<https://kgb-workshop.org/resources/ProgramCommittee/sucy-jameson> <http://schema.org/name> "Sucy Jameson".
-<https://kgb-workshop.org/resources/ProgramCommittee/sucy-jameson> <http://schema.org/memberOf> "Company #3".
-<https://kgb-workshop.org/resources/ProgramCommittee/victoria-brell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
-<https://kgb-workshop.org/resources/ProgramCommittee/victoria-brell> <http://schema.org/performerIn> <https://kgb-workshop.org/resources/Event/kgb2019>.
-<https://kgb-workshop.org/resources/ProgramCommittee/victoria-brell> <http://schema.org/name> "Victoria Brell".
-<https://kgb-workshop.org/resources/ProgramCommittee/victoria-brell> <http://schema.org/memberOf> "Company #4".
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-11> <http://schema.org/name> "Submission papers".
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-11> <http://schema.org/startDate> "2019-03-11".
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-11> <http://schema.org/description> "Submit your paper".
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-29> <http://schema.org/name> "Notifications".
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-29> <http://schema.org/startDate> "2019-03-29".
-<https://kgb-workshop.org/resources/ImportantDates/2019-03-29> <http://schema.org/description> "The notification and reviews from our Program Committee will be available.".
-<https://kgb-workshop.org/resources/ImportantDates/2019-04-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
-<https://kgb-workshop.org/resources/ImportantDates/2019-04-12> <http://schema.org/name> "Submission camera ready".
-<https://kgb-workshop.org/resources/ImportantDates/2019-04-12> <http://schema.org/startDate> "2019-04-12".
-<https://kgb-workshop.org/resources/ImportantDates/2019-04-12> <http://schema.org/description> "Time to have your paper ready for being published. All the accepted paper will be published in the proceedings.".
-<https://kgb-workshop.org/resources/ImportantDates/2019-06-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
-<https://kgb-workshop.org/resources/ImportantDates/2019-06-03> <http://schema.org/name> "Event".
-<https://kgb-workshop.org/resources/ImportantDates/2019-06-03> <http://schema.org/startDate> "2019-06-03".
-<https://kgb-workshop.org/resources/ImportantDates/2019-06-03> <http://schema.org/description> "Keynote, papers presentations, demo jam and a lot of discussion. Remember! If your contribution is accepted, it needs to be presented by one of the authors at the event.".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/name> "John Doe".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/sameAs> "http://john.example.com".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://open.vocab.org/terms/twitter-id> "john".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/memberOf> "Company #1".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/image> "http://kgb-workshop.org/img/john.jpg".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/description> "The biography of John.".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/email> "john@example.com".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://schema.org/jobTitle> "Engineer".
-<https://kgb-workshop.org/resources/Organizer/john-doe> <http://example.org/linkedin> "http://linkedin.com/in/john-doe".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/name> "Jane Doe".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/sameAs> "http://jane.example.com".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://open.vocab.org/terms/twitter-id> "jane".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/memberOf> "Company #2".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/image> "http://kgb-workshop.org/img/jane.jpg".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/description> "The biography of Jane.".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/email> "jane@example.com".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://schema.org/jobTitle> "Project Manager".
-<https://kgb-workshop.org/resources/Organizer/jane-doe> <http://example.org/linkedin> "https://www.linkedin.com/in/jane-doe".
+<http://example.com/resources/Event/example-event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
+<http://example.com/resources/Event/example-event> <http://schema.org/name> "My First Academic Event".
+<http://example.com/resources/Event/example-event> <http://schema.org/duration> "P0T8H".
+<http://example.com/resources/Event/example-event> <http://schema.org/startDate> "2019-06-03".
+<http://example.com/resources/Event/example-event> <http://schema.org/endDate> "2019-06-03".
+<http://example.com/resources/Event/example-event> <http://schema.org/location> "New York, USA".
+<http://example.com/resources/Event/example-event> <http://schema.org/superEvent> "The Big Super Event".
+<http://example.com/resources/Event/example-event> <http://open.vocab.org/terms/twitter-id> "example_event".
+<http://example.com/resources/Event/example-event> <http://schema.org/email> "info@example.com".
+<http://example.com/resources/Event/example-event> <http://schema.org/subEvent> <http://example.com/resources/ImportantDates/2019-03-11>.
+<http://example.com/resources/Event/example-event> <http://schema.org/subEvent> <http://example.com/resources/ImportantDates/2019-03-29>.
+<http://example.com/resources/Event/example-event> <http://schema.org/subEvent> <http://example.com/resources/ImportantDates/2019-04-12>.
+<http://example.com/resources/Event/example-event> <http://schema.org/subEvent> <http://example.com/resources/ImportantDates/2019-06-03>.
+<http://example.com/resources/Event/example-event> <http://schema.org/organizer> <http://example.com/resources/Organizer/john-doe>.
+<http://example.com/resources/Event/example-event> <http://schema.org/organizer> <http://example.com/resources/Organizer/jane-doe>.
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/name> "Mapping based Knowledge Graph Generation".
+<http://example.com/resources/Topic/tools-for-knowledge-graph-generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
+<http://example.com/resources/Topic/tools-for-knowledge-graph-generation> <http://schema.org/name> "Tools for Knowledge Graph Generation".
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/name> "Methods and Techniques for Knowledge Graph Generation".
+<http://example.com/resources/Topic/lessons-learnt-in-use-and-experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>.
+<http://example.com/resources/Topic/lessons-learnt-in-use-and-experience> <http://schema.org/name> "Lessons learnt, In Use and Experience".
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Mapping languages for generating Knowledge Graph from legacy datasets".
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Approaches and techniques on (semi)automatically generate mappings".
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Approaches and techniques on collaborative mappings generation".
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "Approaches and techniques on exploiting mappings for query answering".
+<http://example.com/resources/Topic/mapping-based-knowledge-graph-generation> <http://schema.org/keyword> "End User Interfaces (UI) for (collaborative) editing and viewing  for Knowledge Graphs building rules and management platforms in general".
+<http://example.com/resources/Topic/tools-for-knowledge-graph-generation> <http://schema.org/keyword> "Architectures for Knowledge Graph generation systems".
+<http://example.com/resources/Topic/tools-for-knowledge-graph-generation> <http://schema.org/keyword> "(Sustainable) workflows for Web scale Knowledge Graph generation & publishing".
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Seamless (distributed) integration/interlinking from heterogeneous data sources".
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Dynamic discovery and retrieval of data for KG generation".
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Quality, Provenance, privacy and trustworthiness of Linked Data generation".
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Knowledge Graph generation and publishing of streaming data at run-time".
+<http://example.com/resources/Topic/methods-and-techniques-for-knowledge-graph-generation> <http://schema.org/keyword> "Benchmarks for Knowledge Graphs generation and publishing".
+<http://example.com/resources/Topic/lessons-learnt-in-use-and-experience> <http://schema.org/keyword> "Experience, lessons learnt and best practices for generating and publishing".
+<http://example.com/resources/Topic/lessons-learnt-in-use-and-experience> <http://schema.org/keyword> "Negative results and in-use/applied descriptions".
+<http://example.com/resources/ProgramCommittee/sucy-jameson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/ProgramCommittee/sucy-jameson> <http://schema.org/performerIn> <http://example.com/resources/Event/example-event>.
+<http://example.com/resources/ProgramCommittee/sucy-jameson> <http://schema.org/name> "Sucy Jameson".
+<http://example.com/resources/ProgramCommittee/sucy-jameson> <http://schema.org/memberOf> "Company #3".
+<http://example.com/resources/ProgramCommittee/victoria-brell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/ProgramCommittee/victoria-brell> <http://schema.org/performerIn> <http://example.com/resources/Event/example-event>.
+<http://example.com/resources/ProgramCommittee/victoria-brell> <http://schema.org/name> "Victoria Brell".
+<http://example.com/resources/ProgramCommittee/victoria-brell> <http://schema.org/memberOf> "Company #4".
+<http://example.com/resources/ImportantDates/2019-03-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
+<http://example.com/resources/ImportantDates/2019-03-11> <http://schema.org/name> "Submission papers".
+<http://example.com/resources/ImportantDates/2019-03-11> <http://schema.org/startDate> "2019-03-11".
+<http://example.com/resources/ImportantDates/2019-03-11> <http://schema.org/description> "Submit your paper".
+<http://example.com/resources/ImportantDates/2019-03-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
+<http://example.com/resources/ImportantDates/2019-03-29> <http://schema.org/name> "Notifications".
+<http://example.com/resources/ImportantDates/2019-03-29> <http://schema.org/startDate> "2019-03-29".
+<http://example.com/resources/ImportantDates/2019-03-29> <http://schema.org/description> "The notification and reviews from our Program Committee will be available.".
+<http://example.com/resources/ImportantDates/2019-04-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
+<http://example.com/resources/ImportantDates/2019-04-12> <http://schema.org/name> "Submission camera ready".
+<http://example.com/resources/ImportantDates/2019-04-12> <http://schema.org/startDate> "2019-04-12".
+<http://example.com/resources/ImportantDates/2019-04-12> <http://schema.org/description> "Time to have your paper ready for being published. All the accepted paper will be published in the proceedings.".
+<http://example.com/resources/ImportantDates/2019-06-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event>.
+<http://example.com/resources/ImportantDates/2019-06-03> <http://schema.org/name> "Event".
+<http://example.com/resources/ImportantDates/2019-06-03> <http://schema.org/startDate> "2019-06-03".
+<http://example.com/resources/ImportantDates/2019-06-03> <http://schema.org/description> "Keynote, papers presentations, demo jam and a lot of discussion. Remember! If your contribution is accepted, it needs to be presented by one of the authors at the event.".
+<http://example.com/resources/Organizer/john-doe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/name> "John Doe".
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/sameAs> "http://john.example.com".
+<http://example.com/resources/Organizer/john-doe> <http://open.vocab.org/terms/twitter-id> "john".
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/memberOf> "Company #1".
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/image> "http://localhost:8080/img/john.jpg".
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/description> "The biography of John.".
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/email> "john@example.com".
+<http://example.com/resources/Organizer/john-doe> <http://schema.org/jobTitle> "Engineer".
+<http://example.com/resources/Organizer/john-doe> <http://example.org/linkedin> "http://linkedin.com/in/john-doe".
+<http://example.com/resources/Organizer/jane-doe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/name> "Jane Doe".
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/sameAs> "http://jane.example.com".
+<http://example.com/resources/Organizer/jane-doe> <http://open.vocab.org/terms/twitter-id> "jane".
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/memberOf> "Company #2".
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/image> "http://localhost:8080/img/jane.jpg".
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/description> "The biography of Jane.".
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/email> "jane@example.com".
+<http://example.com/resources/Organizer/jane-doe> <http://schema.org/jobTitle> "Project Manager".
+<http://example.com/resources/Organizer/jane-doe> <http://example.org/linkedin> "https://www.linkedin.com/in/jane-doe".

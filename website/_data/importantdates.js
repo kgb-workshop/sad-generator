@@ -11,7 +11,7 @@ module.exports = async () => {
     "date": { "@id": "http://schema.org/startDate", "@singular": true },
     "subEvent": { "@reverse": "http://schema.org/subEvent", "@singular": true },
     "Event": "http://schema.org/Event",
-    "workshop": "https://kgb-workshop.org/resources/Event/kgb2019"
+    "workshop": "http://example.com/resources/Event/example-event"
   },`{... on Event {title description date subEvent(_:workshop)}}`);
 
   result.sort( (a, b) => {
