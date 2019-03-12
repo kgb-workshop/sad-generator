@@ -1,0 +1,3 @@
+id,name,organization,email,photo,twitter,webpage,biography,role,linkedin
+john-doe,John Doe,Company #1,john@example.com,john.jpg,john,http://john.example.com,"The biography of John.",Engineer,http://linkedin.com/in/john-doe
+jane-doe,Jane Doe,Company #2,jane@example.com,jane.jpg,jane,http://jane.example.com,"The biography of Jane.",Project Manager,https://www.linkedin.com/in/jane-doe

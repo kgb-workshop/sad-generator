@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "Website of the KGB workshop at ESWC19",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.6.0",
+    "@comunica/actor-init-sparql-rdfjs": "^1.4.6",
+    "@comunica/actor-sparql-serialize-tree": "^1.4.4",
+    "@comunica/packager": "^1.5.3",
+    "graphqlld-on-file": "0.0.2",
+    "q": "^1.5.1",
+    "streamify-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "graphql-to-sparql": "^1.5.0"
+  }
+}
