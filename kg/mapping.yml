@@ -71,3 +71,22 @@ mappings:
       - [schema:email, $(email)]
       - [schema:jobTitle, $(role)]
       - [http://example.org/linkedin, $(linkedin)]
+  schedule:
+    sources:
+      - ['csv/schedule.csv~csv']
+    s: http://example.com/resources/Schedule/$(id)
+    po:
+      - [a, schema:Event]
+      - [schema:name, $(name)]
+      - [schema:description, $(description)]
+      - [schema:startDate, $(dateTimeStart)]
+      - [schema:endDate, $(dateTimeStop)]
+      - [schema:subEvent, http://example.com/resources/Event/example-event~iri]
+      - p: schema:superEvent
+        o:
+          - mapping: schedule
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(parent-id)]
+                - [str2, $(id)]
