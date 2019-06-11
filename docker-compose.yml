@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  sad-gen:
+    image: dchaves1/sad-generator:1.0
+    container_name: sad-generator
+    volumes:
+      - ./kg:/sad-generator/kg
+      - ./website:/sad-generator/website
+    ports:
+      - 8080:8080

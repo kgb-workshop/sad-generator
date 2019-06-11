@@ -9,8 +9,20 @@ a SPARQL endpoint or a Triple Pattern Fragments server.
 
 ## Usage
 
+Local:
 - Build the knowledge graph as described [here](./kg/README.md).
 - Generate the website as described [here](./website/README.md).
 
+Using docker:
+```
+docker-compose up -d
+./run.sh
+```
+Changes can be made locally at kg and website folders
+
 ## License
 [MIT License](./LICENSE)
+
+
+## Demo paper at ESWC2019
+Heyvaert, P., Chaves-Fraga, D., Priyatna, F., Dimou, A., & Sequeda, J. (2019, June). SAD Generator: eating our own dog food to generate KGs and websites for academic events. In European Semantic Web Conference. Springer, Cham.
