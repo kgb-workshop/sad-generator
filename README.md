@@ -1,4 +1,4 @@
-# SAD Generator
+# SAD Generator (v0.0.1)
 The SAD Generator,
 a Semantic Academic-event Dissemination Generator,
 uses Semantic Web technologies to generate a knowledge graph and 
