@@ -30,4 +30,4 @@ Changes can be made locally at kg and website folders
 
 
 ## Demo paper at ESWC2019
-Heyvaert, P., Chaves-Fraga, D., Priyatna, F., Dimou, A., & Sequeda, J. (2019, June). SAD Generator: eating our own dog food to generate KGs and websites for academic events. In European Semantic Web Conference. Springer, Cham.
+Heyvaert, P., Chaves-Fraga, D., Priyatna, F., Dimou, A., & Sequeda, J. (2019, June). SAD Generator: eating our own dog food to generate KGs and websites for academic events. In European Semantic Web Conference. Springer, Cham. [PDF](https://pieterheyvaert.com/publications/heyvaert2019sad/paper.pdf)
