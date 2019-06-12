@@ -71,3 +71,29 @@ mappings:
       - [schema:email, $(email)]
       - [schema:jobTitle, $(role)]
       - [http://example.org/linkedin, $(linkedin)]
+  papers:
+    sources:
+      - ['csv/accepted-papers.csv~csv']
+    s: http://example.com/resources/Article/$(id)
+    po:
+      - [a, schema:Article]
+      - [schema:name, $(title)]
+      - [schema:review, $(review)~iri]
+      - [http://example.com/paperType, $(type)]
+
+  authors:
+    sources:
+      - ['csv/authors.csv~csv']
+    s: http://example.com/resources/$(id)
+    po:
+      - [a, schema:Person]
+      - [schema:name, $(name)]
+      - [http://example.com/authorOrder, $(authorNumber)]
+      - p: schema:author
+        o:
+         - mapping: papers
+           condition:
+            function: equal
+            parameters:
+              - [str1, $(paper)]
+              - [str2, $(id)]
