@@ -20,7 +20,9 @@ docker-compose up -d
 ```
 Changes can be made locally at kg and website folders
 
-## Used in the wild
+## In the wild
+
+The following knowledge graphs and websites are generated using the SAD Generator.
 
 - [KGB Workshop](http://kgb-workshop.org)
 - [Sem4Tra Workshop](https://sem4tra.linkeddata.es/)
