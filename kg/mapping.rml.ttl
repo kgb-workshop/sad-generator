@@ -7,6 +7,9 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix : <http://mapping.example.com/>.
 @prefix ov: <http://open.vocab.org/terms/>.
+@prefix co: <http://purl.org/co/>.
+@prefix idlab-fn: <http://example.com/idlab/function/>.
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>.
 
 :map_workshops_0 rml:logicalSource :source_0.
 :source_0 a rml:LogicalSource;
@@ -389,54 +392,116 @@
 :om_35 a rr:ObjectMap;
     rml:reference "type";
     rr:termType rr:Literal.
-:map_authors_0 rml:logicalSource :source_7.
+:pom_36 a rr:PredicateObjectMap.
+:map_papers_0 rr:predicateObjectMap :pom_36.
+:pm_36 a rr:PredicateMap.
+:pom_36 rr:predicateMap :pm_36.
+:pm_36 rr:constant <http://purl.org/dc/terms/creator>.
+:pom_36 rr:objectMap :om_36.
+:map_authorlist_0 rml:logicalSource :source_7.
 :source_7 a rml:LogicalSource;
+    rml:source "csv/accepted-papers.csv";
+    rml:referenceFormulation ql:CSV.
+:map_authorlist_0 a rr:TriplesMap;
+    rdfs:label "authorlist".
+:s_7 a rr:SubjectMap.
+:map_authorlist_0 rr:subjectMap :s_7.
+:s_7 rr:template "http://example.com/resources/AuthorList/{id}".
+:pom_37 a rr:PredicateObjectMap.
+:map_authorlist_0 rr:predicateObjectMap :pom_37.
+:pm_37 a rr:PredicateMap.
+:pom_37 rr:predicateMap :pm_37.
+:pm_37 rr:constant rdf:type.
+:pom_37 rr:objectMap :om_37.
+:om_37 a rr:ObjectMap;
+    rr:constant "http://purl.org/co/List";
+    rr:termType rr:IRI.
+:pom_37 rr:objectMap :om_38.
+:om_38 a rr:ObjectMap;
+    rr:constant "http://xmlns.com/foaf/0.1/Group";
+    rr:termType rr:IRI.
+:pom_38 a rr:PredicateObjectMap.
+:map_authorlist_0 rr:predicateObjectMap :pom_38.
+:pm_38 a rr:PredicateMap.
+:pom_38 rr:predicateMap :pm_38.
+:pm_38 rr:constant co:item.
+:pom_38 rr:objectMap :om_39.
+:map_authoritem_0 rml:logicalSource :source_8.
+:source_8 a rml:LogicalSource;
+    rml:source "csv/authors-papers.csv";
+    rml:referenceFormulation ql:CSV.
+:map_authoritem_0 a rr:TriplesMap;
+    rdfs:label "authoritem".
+:s_8 a rr:SubjectMap.
+:map_authoritem_0 rr:subjectMap :s_8.
+:s_8 rr:template "http://example.com/resources/AuthorItem/{id}".
+:pom_39 a rr:PredicateObjectMap.
+:map_authoritem_0 rr:predicateObjectMap :pom_39.
+:pm_39 a rr:PredicateMap.
+:pom_39 rr:predicateMap :pm_39.
+:pm_39 rr:constant rdf:type.
+:pom_39 rr:objectMap :om_40.
+:om_40 a rr:ObjectMap;
+    rr:constant "http://purl.org/co/ListItem";
+    rr:termType rr:IRI.
+:pom_40 a rr:PredicateObjectMap.
+:map_authoritem_0 rr:predicateObjectMap :pom_40.
+:pm_40 a rr:PredicateMap.
+:pom_40 rr:predicateMap :pm_40.
+:pm_40 rr:constant co:index.
+:pom_40 rr:objectMap :om_41.
+:om_41 a rr:ObjectMap;
+    rml:reference "authorNumber";
+    rr:termType rr:Literal.
+:pom_41 a rr:PredicateObjectMap.
+:map_authoritem_0 rr:predicateObjectMap :pom_41.
+:pm_41 a rr:PredicateMap.
+:pom_41 rr:predicateMap :pm_41.
+:pm_41 rr:constant co:item.
+:pom_41 rr:objectMap :om_42.
+:map_authors_0 rml:logicalSource :source_9.
+:source_9 a rml:LogicalSource;
     rml:source "csv/authors.csv";
     rml:referenceFormulation ql:CSV.
 :map_authors_0 a rr:TriplesMap;
     rdfs:label "authors".
-:s_7 a rr:SubjectMap.
-:map_authors_0 rr:subjectMap :s_7.
-:s_7 rr:template "http://example.com/resources/{id}".
-:pom_36 a rr:PredicateObjectMap.
-:map_authors_0 rr:predicateObjectMap :pom_36.
-:pm_36 a rr:PredicateMap.
-:pom_36 rr:predicateMap :pm_36.
-:pm_36 rr:constant rdf:type.
-:pom_36 rr:objectMap :om_36.
-:om_36 a rr:ObjectMap;
+:s_9 a rr:SubjectMap.
+:map_authors_0 rr:subjectMap :s_9.
+:s_9 rr:template "http://example.com/resources/Author/{id}".
+:pom_42 a rr:PredicateObjectMap.
+:map_authors_0 rr:predicateObjectMap :pom_42.
+:pm_42 a rr:PredicateMap.
+:pom_42 rr:predicateMap :pm_42.
+:pm_42 rr:constant rdf:type.
+:pom_42 rr:objectMap :om_43.
+:om_43 a rr:ObjectMap;
     rr:constant "http://schema.org/Person";
     rr:termType rr:IRI.
-:pom_37 a rr:PredicateObjectMap.
-:map_authors_0 rr:predicateObjectMap :pom_37.
-:pm_37 a rr:PredicateMap.
-:pom_37 rr:predicateMap :pm_37.
-:pm_37 rr:constant <http://schema.org/name>.
-:pom_37 rr:objectMap :om_37.
-:om_37 a rr:ObjectMap;
+:pom_43 a rr:PredicateObjectMap.
+:map_authors_0 rr:predicateObjectMap :pom_43.
+:pm_43 a rr:PredicateMap.
+:pom_43 rr:predicateMap :pm_43.
+:pm_43 rr:constant <http://schema.org/name>.
+:pom_43 rr:objectMap :om_44.
+:om_44 a rr:ObjectMap;
     rml:reference "name";
     rr:termType rr:Literal.
-:pom_38 a rr:PredicateObjectMap.
-:map_authors_0 rr:predicateObjectMap :pom_38.
-:pm_38 a rr:PredicateMap.
-:pom_38 rr:predicateMap :pm_38.
-:pm_38 rr:constant <http://example.com/authorOrder>.
-:pom_38 rr:objectMap :om_38.
-:om_38 a rr:ObjectMap;
-    rml:reference "authorNumber";
-    rr:termType rr:Literal.
-:pom_39 a rr:PredicateObjectMap.
-:map_authors_0 rr:predicateObjectMap :pom_39.
-:pm_39 a rr:PredicateMap.
-:pom_39 rr:predicateMap :pm_39.
-:pm_39 rr:constant <http://schema.org/author>.
-:pom_39 rr:objectMap :om_39.
 :om_9 a rr:ObjectMap;
     rr:parentTriplesMap :map_dates_0.
 :om_10 a rr:ObjectMap;
     rr:parentTriplesMap :map_organizers_0.
-:om_39 a rr:ObjectMap;
-    rr:parentTriplesMap :map_papers_0;
+:om_36 a rr:ObjectMap;
+    rr:parentTriplesMap :map_authorlist_0;
     rr:joinCondition :jc_0.
-:jc_0 rr:child "paper";
+:jc_0 rr:child "id";
+    rr:parent "id".
+:om_39 a rr:ObjectMap;
+    rr:parentTriplesMap :map_authoritem_0;
+    rr:joinCondition :jc_1.
+:jc_1 rr:child "id";
+    rr:parent "paper".
+:om_42 a rr:ObjectMap;
+    rr:parentTriplesMap :map_authors_0;
+    rr:joinCondition :jc_2.
+:jc_2 rr:child "author";
     rr:parent "id".
