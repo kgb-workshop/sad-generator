@@ -79,3 +79,41 @@
 <http://example.com/resources/Organizer/jane-doe> <http://schema.org/email> "jane@example.com".
 <http://example.com/resources/Organizer/jane-doe> <http://schema.org/jobTitle> "Project Manager".
 <http://example.com/resources/Organizer/jane-doe> <http://example.org/linkedin> "https://www.linkedin.com/in/jane-doe".
+<http://example.com/resources/Article/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Article>.
+<http://example.com/resources/Article/1> <http://schema.org/name> "My First Paper".
+<http://example.com/resources/Article/1> <http://schema.org/review> <http://example.com/review1>.
+<http://example.com/resources/Article/1> <http://example.com/paperType> "In-Use Paper".
+<http://example.com/resources/Article/1> <http://purl.org/dc/terms/creator> <http://example.com/resources/AuthorList/1>.
+<http://example.com/resources/Article/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Article>.
+<http://example.com/resources/Article/2> <http://schema.org/name> "My Second Paper".
+<http://example.com/resources/Article/2> <http://schema.org/review> <http://example.com/review2>.
+<http://example.com/resources/Article/2> <http://example.com/paperType> "Full Research Paper".
+<http://example.com/resources/Article/2> <http://purl.org/dc/terms/creator> <http://example.com/resources/AuthorList/2>.
+<http://example.com/resources/AuthorList/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/List>.
+<http://example.com/resources/AuthorList/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group>.
+<http://example.com/resources/AuthorList/1> <http://purl.org/co/item> <http://example.com/resources/AuthorItem/ash-ketchum>.
+<http://example.com/resources/AuthorList/1> <http://purl.org/co/item> <http://example.com/resources/AuthorItem/misty>.
+<http://example.com/resources/AuthorList/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/List>.
+<http://example.com/resources/AuthorList/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group>.
+<http://example.com/resources/AuthorList/2> <http://purl.org/co/item> <http://example.com/resources/AuthorItem/brock>.
+<http://example.com/resources/AuthorList/2> <http://purl.org/co/item> <http://example.com/resources/AuthorItem/dennis>.
+<http://example.com/resources/AuthorItem/ash-ketchum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/ListItem>.
+<http://example.com/resources/AuthorItem/ash-ketchum> <http://purl.org/co/index> "1".
+<http://example.com/resources/AuthorItem/ash-ketchum> <http://purl.org/co/itemContent> <http://example.com/resources/Author/ash-ketchum>.
+<http://example.com/resources/AuthorItem/misty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/ListItem>.
+<http://example.com/resources/AuthorItem/misty> <http://purl.org/co/index> "2".
+<http://example.com/resources/AuthorItem/misty> <http://purl.org/co/itemContent> <http://example.com/resources/Author/misty>.
+<http://example.com/resources/AuthorItem/brock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/ListItem>.
+<http://example.com/resources/AuthorItem/brock> <http://purl.org/co/index> "1".
+<http://example.com/resources/AuthorItem/brock> <http://purl.org/co/itemContent> <http://example.com/resources/Author/brock>.
+<http://example.com/resources/AuthorItem/dennis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/ListItem>.
+<http://example.com/resources/AuthorItem/dennis> <http://purl.org/co/index> "2".
+<http://example.com/resources/AuthorItem/dennis> <http://purl.org/co/itemContent> <http://example.com/resources/Author/dennis>.
+<http://example.com/resources/Author/ash-ketchum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/Author/ash-ketchum> <http://schema.org/name> "Ash Ketchum".
+<http://example.com/resources/Author/misty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/Author/misty> <http://schema.org/name> "Misty".
+<http://example.com/resources/Author/brock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/Author/brock> <http://schema.org/name> "Brock".
+<http://example.com/resources/Author/dennis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>.
+<http://example.com/resources/Author/dennis> <http://schema.org/name> "Dennis".

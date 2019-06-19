@@ -457,7 +457,7 @@
 :map_authoritem_0 rr:predicateObjectMap :pom_41.
 :pm_41 a rr:PredicateMap.
 :pom_41 rr:predicateMap :pm_41.
-:pm_41 rr:constant co:item.
+:pm_41 rr:constant co:itemContent.
 :pom_41 rr:objectMap :om_42.
 :map_authors_0 rml:logicalSource :source_9.
 :source_9 a rml:LogicalSource;

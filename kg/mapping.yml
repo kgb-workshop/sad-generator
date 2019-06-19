@@ -112,13 +112,13 @@ mappings:
 #            function: equal
 #            parameters:
 #              - [str1, $(id)]
-#              - [str2, $(paper)] 
+#              - [str2, $(paper)]
 #        condition:
 #          function: idlab-fn:equal
 #          parameters:
 #            - [grel:valueParameter, 1]
 #            - [grel:valueParameter2, $(authorNumber), o]
-        
+
   authoritem:
     sources:
       - ['csv/authors-papers.csv~csv']
@@ -126,7 +126,7 @@ mappings:
     po:
       - [a, co:ListItem]
       - [co:index, $(authorNumber)]
-      - p: co:item
+      - p: co:itemContent
         o:
          - mapping: authors
            condition:
