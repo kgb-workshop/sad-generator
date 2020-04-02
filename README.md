@@ -25,7 +25,8 @@ Changes can be made locally at kg and website folders
 The following knowledge graphs and websites are generated using the SAD Generator.
 
 - [KGB Workshop (ESWC2019)](http://kgb-workshop.org)
-- [Sem4Tra Workshop (Semantics2019)](https://sem4tra.linkeddata.es/)
+- [Sem4Tra Workshop (Semantics2019)](https://sem4tra2019.linkeddata.es/)
+- [2nd Sem4Tra Workshop (ICWE2020)](https://sem4tra2020.linkeddata.es/)
 - [SeDiT Workshop (ESWC2020)](https://sedit.linkeddata.es/)
 
 ## License
